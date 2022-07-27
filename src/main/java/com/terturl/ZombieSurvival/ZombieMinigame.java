@@ -12,7 +12,6 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import com.terturl.ZombieSurvival.Kits.SlayerKit;
 import com.terturl.mcessentials.MCEssentials;
 import com.terturl.mcessentials.minigameapi.Minigame;
 import com.terturl.mcessentials.minigameapi.configuration.MinigameConfiguration;
@@ -20,6 +19,7 @@ import com.terturl.mcessentials.minigameapi.configuration.endstates.AllPlayersDe
 import com.terturl.mcessentials.minigameapi.configuration.loadstrategy.PureConfigLoadStrategy;
 import com.terturl.mcessentials.minigameapi.leaderboard.Leaderboard;
 import com.terturl.mcessentials.minigameapi.listeners.MinigameEntityDeathEvent;
+import com.terturl.zombiesurvival.kits.SlayerKit;
 
 import net.md_5.bungee.api.ChatColor;
 

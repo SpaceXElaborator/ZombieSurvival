@@ -21,10 +21,10 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.util.Vector;
 
-import com.terturl.ZombieSurvival.ZombieSurvival;
 import com.terturl.mcessentials.minigameapi.kits.Kit;
 import com.terturl.mcessentials.minigameapi.kits.KitCooldown;
 import com.terturl.mcessentials.minigameapi.listeners.MinigamePlayerDamageEvent;
+import com.terturl.zombiesurvival.ZombieSurvival;
 
 public class SlayerKit extends Kit {
 
