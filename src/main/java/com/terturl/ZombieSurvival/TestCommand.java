@@ -1,4 +1,4 @@
-package com.terturl.ZombieSurvival;
+package com.terturl.zombiesurvival;
 
 import org.bukkit.command.BlockCommandSender;
 import org.bukkit.command.ConsoleCommandSender;
@@ -14,8 +14,9 @@ public class TestCommand extends CraftCommand {
 		super("test-command");
 	}
 
+	@Override
 	protected void handleCommand(Player p, String[] args) {
-		MCEssentials mc = JavaPlugin.getPlugin(MCEssentials.class);
+		final MCEssentials mc = JavaPlugin.getPlugin(MCEssentials.class);
 		mc.getMinigameHandler().addPlayerToMinigame("ZombieSurvival", p);
 	}
 
@@ -28,5 +29,5 @@ public class TestCommand extends CraftCommand {
 	protected void handleCommand(BlockCommandSender bcs, String[] args) {
 		return;
 	}
-	
+
 }

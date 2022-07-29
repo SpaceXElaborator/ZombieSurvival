@@ -27,6 +27,12 @@
 			<version>1.19-R0.1-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+			<groupId>MeleeCraft</groupId>
+			<artifactId>MCEssentials</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<scope>provided</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -51,7 +57,7 @@
 					<archive>
 						<manifest>
 							<mainClass>
-								com.terturl.ZombieSurvival.ZombieSurvival
+								com.terturl.zombiesurvival.ZombieSurvival
 							</mainClass>
 						</manifest>
 					</archive>
